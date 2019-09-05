@@ -11,5 +11,6 @@
   },
   "devDependencies": {
     "typescript": "^3.6.2"
-  }
+  },
+  "keywords": ["concurrency"]
 }
