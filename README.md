@@ -25,7 +25,7 @@ import Concurrency from 'con-task-runner';
 const tasks = [...];
 
 const concurrency = 5;
-const limit = tasks.limit;
+const limit = tasks.length;
 
 const taskRunner = Concurrency({ concurrency, limit } /* Options */);
 
